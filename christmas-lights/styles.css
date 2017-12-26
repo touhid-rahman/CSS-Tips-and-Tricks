@@ -37,14 +37,14 @@ h2{
     margin: 0px 15px;
     top: 102px;
     display: inline-block;
-    animation-duration: 1s;
-    animation-fill-mode: both;
-    animation-iteration-count:infinite;
-    animation-name: even-flash;
+    animation: 1s both infinite;
 }
 
  #wire li:nth-child(odd){
      animation-name: odd-flash;
+ }
+ #wire li:nth-child(even){
+     animation-name: even-flash;
  }
 
 #wire li:before {
